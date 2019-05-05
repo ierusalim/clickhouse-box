@@ -1,0 +1,24 @@
+{
+    "name": "ierusalim/clickhouse-box",
+    "description": "ClickHouse engine with history-box API",
+    "keywords": ["clickhouse","database","storage","history"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Alexander Jer",
+            "email": "alex@ierusalim.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ierusalim/php-clickhouse": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ClickHouseBox\\": "src/"
+        }
+    }
+}
